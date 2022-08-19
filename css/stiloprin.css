@@ -688,3 +688,13 @@ fieldset{
   cursor: pointer;
 }
 
+q{
+  font-size: 18px;
+  text-align: center;
+}
+
+.glob{
+  font-size: 18px;
+  text-align: center;
+}
+
