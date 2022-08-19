@@ -70,6 +70,118 @@
                     <p>Sin embargo, al trabajar con == y !=, te encontrarás con problemas al trabajar con diferentes tipos. En estos casos,
                          intentarán coaccionar los valores, sin éxito.
                     </p>
+                    <br><br>
+                    <br>
+                    <h3>Utiliza JS Lint</h3>
+                    <p>JSLint es un depurador escrito por Douglas Crockford. Solo tienes que pegar tu script, y rápidamente escaneará en 
+                        busca de problemas y errores notables en tu código.
+                    </p>
+                    <i>"JSLint toma una fuente de JavaScript y la escanea. Si encuentra un problema, devuelve un mensaje que describe
+                         el problema y una ubicación aproximada dentro de la fuente. El problema no es necesariamente un error de sintaxis, 
+                         aunque a menudo lo es. JSLint examina algunas convenciones de estilo, así como problemas estructurales. 
+                         No demuestra que tu programa sea correcto. Solo proporciona otro par de ojos para ayudar a detectar problemas"
+                    </i>
+                    <p></p>
+                    <br>
+                    <br>
+                    <h3>Coloca los scripts en la parte inferior de tu página</h3>
+                    <br><br>
+                    <p>
+                        Si tienes archivos JS cuyo único propósito es añadir funcionalidad, por ejemplo, después de hacer clic en un botón, 
+                        coloca esos archivos en la parte inferior, justo antes de la etiqueta de cierre del cuerpo. Se trata de una práctica
+                        absolutamente recomendable.
+                    </p>
+                </div>
+                <img class="logoo" src="img/cod.png" width="650" height="80">
+                <br>
+                <br>
+                <h3>Reducir Globales</h3>
+                <br>
+                    <i>"Al reducir tu huella global a un solo nombre, reduces significativamente la posibilidad de malas interacciones con otras
+                         aplicaciones, widgets o bibliotecas"
+                    </i>
+                    <BR>
+                    <img class="logoo" src="img/glob1.png" width="350" height="120">
+                    <br>
+                    <p class="glob">Mejor manera</>
+                    <br>
+                    <img class="logoo" src="img/glob2.png" width="350" height="120">
+                    <br>
+                    <p class="glob">
+                        Observa cómo hemos "reducido nuestra huella" a solo el objeto ridículamente llamado "DudeNameSpace".
+                    </p>
+
+                    <br>
+                <br>
+                <h3>Comenta tu código</h3>
+                <br>
+                <p>Puede parecer innecesario al principio, pero créeme, QUIERES comentar tu código lo mejor posible. Qué pasa cuando
+                     vuelves al proyecto meses después, solo para descubrir que no puedes recordar fácilmente cuál era tu línea de pensamiento. 
+                     O, ¿qué pasa si uno de tus colegas necesita revisar tu código? Siempre, siempre, comenta las secciones importantes de tu 
+                     código.
+                </p>
+                    <img class="logoo" src="img/globi1.png" width="350" height="120">
+
+                    <br>
+                    <br>
+                <h3>Utiliza siempre, siempre, el punto y coma</h3>
+                <br>
+                <p>Puede parecer innecesario al principio, pero créeme, QUIERES comentar tu código lo mejor posible. Qué pasa cuando
+                     vuelves al proyecto meses después, solo para descubrir que no puedes recordar fácilmente cuál era tu línea de pensamiento. 
+                     O, ¿qué pasa si uno de tus colegas necesita revisar tu código? Siempre, siempre, comenta las secciones importantes de tu 
+                     código.
+                </p>
+                <img class="logoo" src="img/globi1.png" width="350" height="120">
+                <br>
+                <br>
+                <h3>Eliminar "Idioma"</h3>
+                <q>
+                    Antes no estaba la sección de lenguajes en JavaScript pero se implemento hace unos años.
+                </q>
+                <br>
+                <br>
+                <i>"script type="text/javascript" language="javascript">
+                    ...
+                    /script>"
+                </i>
+                <br>
+                <br>
+                <h3>Estructura de carpetas</h3>
+                <br>
+                <p>Una buena practica para tener el código organizado es utilizar una buena estructura de carpetas, 
+                    que sea fácil de entender y mantener. Un ejemplo podría ser así:</p>
+                    <br>
+                    <img class="logoo" src="img/globs1.png" width="150" height="220">
+                    <br>
+                    <q>En /js organizariamos en carpetas lógicas dependiendo de lo complejo de nuestra aplicación.</q>
+                    <br>
+                    <br>
+                    <h3>Refactorizar y evitar código duplicado</h3>
+                    <br>
+                    <p>
+                        Vamos, como en cualquier otro lenguaje, debemos evitar tener estructura duplicadas a lo largo
+                         del programa y refactorizarlas por funciones o clases que centralicen este tipo de código.
+                    </p>
+                    <br>
+                    <br>
+                    <h3>Separar el código por responsabilidades</h3>
+                    <br>
+                    <p>
+                        Para crear aplicaciones sólidas el código debe ser intuitivo y ser fácil de comprender por otras 
+                        personas que no hayan estado en el desarrollo. Esto implica una limpieza y organización que al
+                         aplicara hace que todo fluya de forma natural, y sea muy fácil adaptar el código a nuevas necesidades 
+                         sin dolores de cabeza.
+                    </p>
+                    <p>
+                        En el caso de las aplicaciones web, una buena práctica es separar el estilo (colores, fuentes, etc) 
+                        de la estructura de visualización, y la lógica de negocio, tambien a parte. Si es posible deben cada 
+                        capa debe estar en ficheros distintos o por lo menos en partes fácilmente localizables y con un patron
+                         de forma que sea fácil de encontrar siempre
+                    </p>
+                    <br>
+                    <p>➤ Estilo</p>
+                    <p>➤ Lógica</p>
+                    <P>➤ Estructura</P>
                   
     
                 </div>
